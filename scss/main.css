@@ -79,6 +79,7 @@ body {
 
 .bio {
   padding: 6rem 0;
+  padding-top: 16rem;
 }
 .bio_wrapper {
   display: flex;
@@ -318,7 +319,10 @@ body {
 }
 
 .header {
+  width: 100%;
+  position: fixed;
   background: rgba(2, 2, 2, 0.8);
+  z-index: 9999;
 }
 .header_wrapper {
   position: relative;

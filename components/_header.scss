@@ -1,5 +1,8 @@
 .header {
+    width: 100%;
+    position: fixed;
     background: rgba($color: #020202, $alpha: 0.8);
+    z-index: 9999;
     &_wrapper {
         position: relative;
         padding: 1.75rem 0;
