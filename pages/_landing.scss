@@ -126,7 +126,19 @@ body {
         }
         &_content {
             position: relative;
+            display: flex;
+            justify-content: space-between;
         }
+        .separator {
+            position: absolute;
+            width: 60rem;
+            top: 29rem;
+            left: 50%;
+            transform: translateX(-50%) rotate(90deg);
+        }
+    }
+    &_khytze, &_chelsey {
+        max-width: 68.5rem;
     }
     .shared_project {
         padding: 2rem 0;
@@ -159,6 +171,21 @@ body {
             gap: 2rem;
             p {
                 font-size: 1.8rem;
+            }
+        }
+    }
+    .individual_project {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        &_text {
+            p {
+                text-align: justify;
+            }
+        }
+        &_img {
+            img {
+                max-width: 68.5rem;
             }
         }
     }

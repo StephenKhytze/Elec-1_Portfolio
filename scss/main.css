@@ -163,6 +163,18 @@ body {
 }
 .projects_individual_content {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.projects_individual .separator {
+  position: absolute;
+  width: 60rem;
+  top: 29rem;
+  left: 50%;
+  transform: translateX(-50%) rotate(90deg);
+}
+.projects_khytze, .projects_chelsey {
+  max-width: 68.5rem;
 }
 .projects .shared_project {
   padding: 2rem 0;
@@ -198,6 +210,17 @@ body {
 }
 .projects .shared_project_text p {
   font-size: 1.8rem;
+}
+.projects .individual_project {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.projects .individual_project_text p {
+  text-align: justify;
+}
+.projects .individual_project_img img {
+  max-width: 68.5rem;
 }
 
 .contacts {
