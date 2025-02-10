@@ -77,170 +77,172 @@ body {
   font-size: 3rem;
 }
 
-.bio {
+#bio {
   padding: 6rem 0;
   padding-top: 16rem;
 }
-.bio_wrapper {
+#bio .bio_wrapper {
   display: flex;
   position: relative;
   justify-content: space-between;
 }
-.bio .khytze {
+#bio .khytze {
   display: flex;
   flex-direction: column;
   width: 70rem;
   gap: 10rem;
 }
-.bio .khytze_info {
+#bio .khytze_info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.bio .khytze_info p {
+#bio .khytze_info p {
   font-size: 2rem;
   width: 68.5%;
 }
-.bio .khytze_image {
+#bio .khytze_image {
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
   border: 2px solid #000000;
   overflow: hidden;
 }
-.bio .khytze_image img {
+#bio .khytze_image img {
   width: 100%;
 }
-.bio .khytze h2 {
+#bio .khytze h2 {
   font-size: 3.6rem;
 }
-.bio .chelsey {
+#bio .chelsey {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 70rem;
   gap: 10rem;
 }
-.bio .chelsey_info {
+#bio .chelsey_info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.bio .chelsey_info p {
+#bio .chelsey_info p {
   font-size: 2rem;
   width: 68.5%;
 }
-.bio .chelsey_image {
+#bio .chelsey_image {
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
   border: 2px solid #000000;
   overflow: hidden;
 }
-.bio .chelsey_image img {
+#bio .chelsey_image img {
   width: 100%;
 }
-.bio .chelsey h2 {
+#bio .chelsey h2 {
   font-size: 3.6rem;
   margin-right: 5.8rem;
 }
-.bio .separator {
+#bio .separator {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-55deg);
 }
 
-.intro {
+#intro {
   display: flex;
   position: relative;
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  margin-top: 15rem;
-  margin-bottom: 15rem;
+  padding-top: 15rem;
 }
-.intro .kz {
+#intro .kz {
   display: flex;
   flex-direction: column;
 }
-.intro .kz_intro {
+#intro .kz_intro {
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.intro .kz_intro h2 {
+#intro .kz_intro h2 {
   font-size: 3.6rem;
   font-weight: bold;
   align-self: flex-start;
   margin-bottom: 15px;
 }
-.intro .kz_intro p {
+#intro .kz_intro p {
   font-size: 2rem;
   line-height: 1.5;
   text-align: left;
 }
-.intro .ac {
+#intro .ac {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-top: -45rem;
 }
-.intro .ac_intro {
+#intro .ac_intro {
   width: 40%;
   display: flex;
   flex-direction: column;
 }
-.intro .ac_intro h2 {
+#intro .ac_intro h2 {
   font-size: 3.6rem;
   font-weight: bold;
   align-self: flex-start;
   margin-bottom: 15px;
 }
-.intro .ac_intro p {
+#intro .ac_intro p {
   font-size: 2rem;
   line-height: 1.5;
   text-align: left;
 }
-.intro .separator {
+#intro .separator {
   position: absolute;
-  top: 50%;
+  top: 41rem;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
-.projects h2 {
+#projects {
+  padding-top: 15rem;
+}
+#projects h2 {
   font-size: 3.6rem;
   margin-bottom: 1rem;
 }
-.projects_shared h2 {
+#projects .projects_shared h2 {
   font-size: 2.8rem;
 }
-.projects_individual h2 {
+#projects .projects_individual h2 {
   font-size: 2.8rem;
 }
-.projects_individual_content {
+#projects .projects_individual_content {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
-.projects_individual .separator {
+#projects .projects_individual .separator {
   position: absolute;
-  width: 60rem;
-  top: 29rem;
+  width: 80rem;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%) rotate(90deg);
 }
-.projects_khytze, .projects_chelsey {
+#projects .projects_khytze, #projects .projects_chelsey {
   max-width: 68.5rem;
 }
-.projects .shared_project {
+#projects .shared_project {
   padding: 2rem 0;
   display: flex;
   gap: 4rem;
 }
-.projects .shared_project_img {
+#projects .shared_project_img {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -249,36 +251,36 @@ body {
   height: -moz-max-content;
   height: max-content;
 }
-.projects .shared_project_img img {
+#projects .shared_project_img img {
   width: 35rem;
   border-radius: 1rem;
   z-index: 3;
 }
-.projects .shared_project_img img:nth-of-type(2) {
+#projects .shared_project_img img:nth-of-type(2) {
   position: absolute;
   top: 50%;
   left: 8rem;
   transform: translateY(-50%);
 }
-.projects .shared_project_text {
+#projects .shared_project_text {
   display: flex;
   flex-direction: column;
   max-width: 100rem;
   text-align: justify;
   gap: 2rem;
 }
-.projects .shared_project_text p {
+#projects .shared_project_text p {
   font-size: 1.8rem;
 }
-.projects .individual_project {
+#projects .individual_project {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.projects .individual_project_text p {
+#projects .individual_project_text p {
   text-align: justify;
 }
-.projects .individual_project_img img {
+#projects .individual_project_img img {
   max-width: 68.5rem;
 }
 
@@ -331,68 +333,68 @@ body {
   transform: translate(-50%, -50%) rotate(-55deg);
 }
 
-.contacts {
+#contacts {
   padding: 6rem 0;
 }
-.contacts_wrapper {
+#contacts .contacts_wrapper {
   display: flex;
   position: relative;
   justify-content: space-between;
 }
-.contacts .khytze {
+#contacts .khytze {
   display: flex;
   flex-direction: column;
   width: 70rem;
   gap: 10rem;
   margin-bottom: 15rem;
 }
-.contacts .khytze_text {
+#contacts .khytze_text {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 68.2%;
 }
-.contacts .khytze_text ul {
+#contacts .khytze_text ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.contacts .khytze_text ul li {
+#contacts .khytze_text ul li {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.contacts .khytze_text ul li:last-of-type {
+#contacts .khytze_text ul li:last-of-type {
   gap: 1.75rem;
 }
-.contacts .khytze_text ul li i {
+#contacts .khytze_text ul li i {
   font-size: 2rem;
 }
-.contacts .khytze_text ul li a {
+#contacts .khytze_text ul li a {
   font-size: 2rem;
 }
-.contacts .khytze_info {
+#contacts .khytze_info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.contacts .khytze_info p {
+#contacts .khytze_info p {
   font-size: 2rem;
 }
-.contacts .khytze_image {
+#contacts .khytze_image {
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
   border: 2px solid #000000;
   overflow: hidden;
 }
-.contacts .khytze_image img {
+#contacts .khytze_image img {
   width: 100%;
 }
-.contacts .khytze h2 {
+#contacts .khytze h2 {
   font-size: 3.2rem;
 }
-.contacts .chelsey {
+#contacts .chelsey {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -400,54 +402,54 @@ body {
   gap: 10rem;
   margin-top: 15rem;
 }
-.contacts .chelsey_text {
+#contacts .chelsey_text {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin-right: 8rem;
 }
-.contacts .chelsey_text ul {
+#contacts .chelsey_text ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.contacts .chelsey_text ul li {
+#contacts .chelsey_text ul li {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.contacts .chelsey_text ul li:last-of-type {
+#contacts .chelsey_text ul li:last-of-type {
   gap: 1.75rem;
 }
-.contacts .chelsey_text ul li i {
+#contacts .chelsey_text ul li i {
   font-size: 2rem;
 }
-.contacts .chelsey_text ul li a {
+#contacts .chelsey_text ul li a {
   font-size: 2rem;
 }
-.contacts .chelsey_info {
+#contacts .chelsey_info {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.contacts .chelsey_info p {
+#contacts .chelsey_info p {
   font-size: 2rem;
 }
-.contacts .chelsey_image {
+#contacts .chelsey_image {
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
   border: 2px solid #000000;
   overflow: hidden;
 }
-.contacts .chelsey_image img {
+#contacts .chelsey_image img {
   width: 100%;
 }
-.contacts .chelsey h2 {
+#contacts .chelsey h2 {
   font-size: 3.2rem;
 }
-.contacts .separator {
+#contacts .separator {
   position: absolute;
   top: 50%;
   left: 50%;

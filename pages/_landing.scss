@@ -36,10 +36,10 @@ body {
     }
 }
 
-.bio {
+#bio {
     padding: 6rem 0;
     padding-top: 16rem;
-    &_wrapper {
+    .bio_wrapper {
         display: flex;
         position: relative;
         justify-content: space-between;
@@ -110,14 +110,13 @@ body {
     }
 }
 
-.intro {
+#intro {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin-top: 15rem;
-    margin-bottom: 15rem;
+    padding-top: 15rem;
     .kz{
         display: flex;
         flex-direction: column;
@@ -164,23 +163,24 @@ body {
     }
     .separator {
         position: absolute;
-        top: 50%;
+        top: 41rem;
         left: 50%;
         transform: translate(-50%, -50%) rotate(-90deg);
     }
 }
 
-.projects {
+#projects {
+    padding-top: 15rem;
     h2 {
         font-size: 3.6rem;
         margin-bottom: 1rem;
     }
-    &_shared {
+    .projects_shared {
         h2 {
             font-size: 2.8rem;
         }
     }
-    &_individual {
+    .projects_individual {
         h2 {
             font-size: 2.8rem;
         }
@@ -191,13 +191,13 @@ body {
         }
         .separator {
             position: absolute;
-            width: 60rem;
-            top: 29rem;
+            width: 80rem;
+            top: 50%;
             left: 50%;
             transform: translateX(-50%) rotate(90deg);
         }
     }
-    &_khytze, &_chelsey {
+    .projects_khytze, .projects_chelsey {
         max-width: 68.5rem;
     }
     .shared_project {
@@ -302,9 +302,9 @@ body {
     }
 }
 
-.contacts {
+#contacts {
     padding: 6rem 0;
-    &_wrapper {
+    .contacts_wrapper {
         display: flex;
         position: relative;
         justify-content: space-between;
